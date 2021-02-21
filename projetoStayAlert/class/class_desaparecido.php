@@ -42,12 +42,12 @@
             return $this->dataDesaparecimento;
         }
 
-        public function setCpf(Pessoa $cpf) {
-            $this->cpf = $cpf;
+        public function setCpf(Pessoa $Cpf) {
+            $this->Cpf = $Cpf;
         }
 
         public function getCpf() {
-            return $this->cpf;
+            return $this->Cpf;
         }
 
         private function SelectAll() {
@@ -61,7 +61,7 @@
                 $oDesaparecido = new Desaparecido;
 
                 $oCidade->setCodigo($aLinha['CID_CODIGO']);
-                $oCidade->setDescricao($aLinha['CID_DESCRICAO']);
+    
 
                 $oPessoa->setNomeCompleto($aLinha['PES_DESCRICAO']);
                 $oPessoa->setCpf($aLinha['PES_CPF']);
@@ -93,13 +93,20 @@
                 <?php
             } else { ?>
             <div class="album py-5 bg-light">
-                <div class="container">
+                <div class="container">            
+                    <?php
+                        foreach ($aDados as $oObjeto) {
+                    ?>            
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         <div class="col">
                             <div class="card shadow-sm">
                                 <img src="img/pessoa1.jpg">
                                 <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">
+                                    <strong>Nome:<strong> <?php echo $oObjeto->getNomeCompleto()->getNomeCompleto(); ?><br>
+                                    <strong>Data Desaparecimento:</strong> <?php echo $oObjeto->getDataDesaparecimento(); ?><br>
+                                    <strong>Observação:</strong> <?php echo $oObjeto->getObservacao(); ?><br>
+                                </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                 
                                 </div>
@@ -107,7 +114,7 @@
                         </div>
                     </div>
                 
-            <?php } ?>
+            <?php } }?>
         <?php 
         } 
     }
