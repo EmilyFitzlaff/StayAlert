@@ -4,6 +4,7 @@
         <?php 
             $title = "Página Principal - Stay Alert";
             include_once('head.php'); 
+            echo "sauhsauashu";
         ?>
     </head>
 
