@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <?php 
-            $title = "Consultar Pessoas - Stay Alert";
+            $title = "Consultar Desaparecidos - Stay Alert";
             include_once('head.php'); 
         ?>
     </head>
@@ -17,12 +17,9 @@
         <main>   
             <div class="container">       
                 <br>
-                <h3>Consultar Pessoas</h3>
+                <h3 class="display-8">Desaparecidos</h3>
                 <br>
-                <?php
-                    $pessoa = new Pessoa();
-                    $pessoa->CreateTable();
-                ?>   
+               
             </div>          
         </main>
 
