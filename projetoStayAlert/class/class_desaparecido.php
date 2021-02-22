@@ -96,7 +96,7 @@
                 <div class="container">            
                     <?php
                         foreach ($aDados as $oObjeto) {
-                            echo "<pre>"; var_dump($oObjeto); echo "</pre>";
+                            //echo "<pre>"; var_dump($oObjeto); echo "</pre>";
                     ?>            
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         <div class="col">

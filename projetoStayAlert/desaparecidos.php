@@ -20,7 +20,8 @@
             <div class="container">       
                 <br>
                 <h3 class="display-8">Desaparecidos</h3>
-                <br>
+                <a href="cadastrar_desaparecido.php" class="btn btn-danger">Cadastrar Desaparecido</a>
+                <br><br>
                 <?php
                     $Desaparecido = new Desaparecido();
                     $Desaparecido->CreateTable();
