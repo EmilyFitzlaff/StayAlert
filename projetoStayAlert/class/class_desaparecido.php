@@ -96,6 +96,7 @@
                 <div class="container">            
                     <?php
                         foreach ($aDados as $oObjeto) {
+                            echo "<pre>"; var_dump($oObjeto); echo "</pre>";
                     ?>            
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         <div class="col">
@@ -103,9 +104,10 @@
                                 <img src="img/pessoa1.jpg">
                                 <div class="card-body">
                                 <p class="card-text">
-                                    <strong>Nome:<strong> <?php echo $oObjeto->getNomeCompleto()->getNomeCompleto(); ?><br>
+                                    <strong>Nome:</strong> <?php echo $oObjeto->getNomeCompleto(); ?><br>
                                     <strong>Data Desaparecimento:</strong> <?php echo $oObjeto->getDataDesaparecimento(); ?><br>
-                                    <strong>Observação:</strong> <?php echo $oObjeto->getObservacao(); ?><br>
+                                    <strong>Observação:</strong><br>
+                                        <?php echo $oObjeto->getObservacao(); ?><br>
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                 

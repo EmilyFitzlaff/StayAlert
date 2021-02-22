@@ -171,3 +171,34 @@ FOREIGN KEY (PUB_CODIGO)
 REFERENCES PUBLICACAO (PUB_CODIGO)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
+
+Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'AC','Acre');  
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'AL','Alagoas');  
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'AM','Amazonas');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'AP','Amapá');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'BA','Bahia');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'CE','Ceará');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'DF','Distrito Federal');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'ES','Espírito Santo');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'GO','Goiás');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'MA','Maranhão');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'MG','Minas Gerais');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'MS','Mato Grosso do Sul');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'MT','Mato Grosso');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'PA','Pará');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'PB','Paraíba');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'PE','Pernambuco');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'PI','Piauí');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'PR','Paraná');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'RJ','Rio de Janeiro');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'RN','Rio Grande do Norte');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'RO','Rondônia');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'RR','Roraima');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'RS','Rio Grande do Sul');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'SC','Santa Catarina');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'SE','Sergipe');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'SP','São Paulo');
+ Insert Into estado (pais_codigo,est_sigla,est_descricao) Values(1,'TO','Tocantins');
+
+ insert into cidade (cid_descricao, est_codigo) 
+values('Florianópolis', 1),('Rio do Oeste', 1),('Laurentino',1),('Pouso Redondo',1);
