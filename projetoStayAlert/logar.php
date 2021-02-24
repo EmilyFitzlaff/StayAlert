@@ -17,10 +17,11 @@
                             <strong class="text-white">LOGIN</strong>
                         </div>
                         <div class="card-body">
-                            <form method="POST" action="autenticacao.php">
+                            <form method="POST" action="home
+                            .php">
                                 <div class="form-group">
                                     <label for="login">E-mail</label>
-                                    <input type="mail" class="form-control" id="login" placeholder="Exemplo: usuario@gmail.com" name="login" required maxlength="15">
+                                    <input type="mail" class="form-control" id="login" placeholder="Exemplo: usuario@gmail.com" name="login" required maxlength="23">
                                 </div>
                                 <br>
                                 <div class="form-group">

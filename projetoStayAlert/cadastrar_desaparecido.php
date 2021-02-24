@@ -29,7 +29,7 @@
                                     <input type="text" class="form-control" id="inputEmail4" placeholder="Exemplo: José da Silva">
                                 </div>
                                 <div class="col-md-4">
-                                    <label for="inputAddress" class="form-label">Data de Nascimento</label>
+                                    <label for="inputAddress" class="form-label">Data de Desaparecimento</label>
                                     <input type="date" class="form-control" id="inputAddress" placeholder="00/00/0000">
                                 </div>
                                 <div class="col-md-6">
